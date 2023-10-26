@@ -1,0 +1,693 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+:root{
+    --main:rgba(70, 69, 69, 0.774);
+    --primary:blue
+}
+
+/* styling home header */
+#header{
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-between;
+    padding: 2% 5%;
+    background-color: #2b2a2a;
+}
+.head{
+    color: white;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+.der ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+.der a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: gray;
+}
+.der1{
+    background-color: rgb(100, 96, 96);
+    font-size: 4rem;
+    border: none;
+    padding: 25% 0;
+    text-align: center;
+    color: gray;
+    border-radius: 10px;
+}
+#header i{
+    display: none;
+}
+/* styling header done */
+
+/* styling home content */
+#ladder{
+    display: flex;
+    font-size: 1.4rem;
+    justify-content: space-between;
+    padding: 3% 5%;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+}
+#ladder h1{
+    font-size: 5rem;
+    padding: 3% 0;
+}
+#ladder span{
+    text-transform: capitalize;
+    font-size: 2.6rem;
+    color: gray;
+    margin-bottom: 2%;
+}
+#ladder button{
+    width: 30%;
+    height: 10vh;
+    border-radius: 1rem;
+    background-color: hsl(0, 1%, 17%);
+    color: white;
+    text-align: center;
+    font-size: 2.2rem;
+}
+#ladder .lad{
+    width: 30%;
+    height: 10vh;
+    border-radius: 1rem;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: 2.2rem;
+}
+#ladder .loned{
+    flex-basis: 30%;
+    background-color: #575555ec;
+    height: 40vh;
+    border-radius: 1rem;
+}
+.lone p{
+    padding-bottom: 3%;
+}
+.loned p{
+    font-size: 7rem;
+    text-align: center;
+    padding-top: 20%;
+    color: gray;
+}
+
+/* <!-- styling home content done --> */
+
+/* <!-- styling home content2 --> */
+
+#kiddie{
+    display: flex;
+    font-size: 1.4rem;
+    justify-content: space-between;
+    padding: 5% 5%;
+    background-color: white;
+    color: black;
+    /* flex-wrap: wrap; */
+}
+#kiddie .kidd{
+    font-size: 4.5rem;
+}
+#kiddie .kid{
+    font-size: 2rem;
+}
+#kiddie .ni{
+    padding-bottom: 19%;
+}
+#zara .chomi{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 3%;
+    font-size: 3rem;
+    font-style: italic;
+}
+#zara .chomzy{
+    display: flex;
+    justify-content: center;
+    padding-top: 4%;
+    font-size: 1.6rem;
+}
+#zara .chom{
+    padding-bottom: 7%;
+    width: 50px;
+    height: 50px;
+    background-color: gainsboro;
+    border-radius: 100%;
+}
+.chom p{
+    text-align: center;
+    padding-left: 10%;
+    margin-top: 90%;
+    font-size: 0.8rem;
+    justify-content: center;
+}
+.chomz{
+    margin-top: 2%;
+    padding-left: 2%;
+}
+
+/* styling home content2 done */
+
+/* styling home content3 */
+#banner{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 1.8rem;
+}
+#banner p{
+    font-size: 2.3rem;
+}
+#banner1{
+    display: flex;
+    margin-top: 8%;
+    justify-content: space-between;
+    padding: 5%;
+    margin-left: 10%;
+}
+#banner1 .serve{
+    background-color: hwb(0 58% 41%);
+    padding: 55% 0;
+    text-align: center;
+    color: black;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px gray;
+    width: 100%;
+    height: 30vh;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 2.6rem;
+}
+#banner1 .barn{
+    background-color: hwb(0 58% 41%);
+    padding: 55% 0;
+    text-align: center;
+    color: black;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px gray;
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 2.6rem;
+}
+#banner1 .gone{
+    background-color: hwb(0 58% 41%);
+    padding: 55% 0;
+    text-align: center;
+    color: black;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px gray;
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 2.6rem;
+} 
+#banner1 .banan{
+    background-color: gainsboro;
+    border-radius: 0.5rem; 
+}
+#banner1 .banan1{
+    background-color: gainsboro;
+    border-radius: 0.5rem; 
+}
+#banner1 .banan2{
+    background-color: gainsboro;
+    border-radius: 0.5rem; 
+}
+.bee1{
+    font-size: 1.8rem;
+}
+.bee2{
+    font-size: 1.8rem;
+}
+.bee3{
+    font-size: 1.8rem;
+}
+.news{
+    background-color: blue;
+    margin-top: 10%;
+    width: 65px;
+    height: 25px;
+    margin-left: 2%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 1.5rem;
+    color: white;
+}
+.media{
+    background-color: blue;
+    margin-top: 12%;
+    width: 65px;
+    height: 25px;
+    margin-left: 2%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 1.5rem;
+    color: white;
+    /* margin-left: 30%; */
+}
+.new{
+    background-color: blue;
+    margin-top: 7%;
+    width: 65px;
+    height: 25px;
+    margin-left: 2%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 1.5rem;
+    color: white;
+}
+#banner1 .lee{
+    font-size: 2.4rem;
+    margin: 7% 0;
+}
+
+/* stylimg home content3 done */
+
+/* styling content content 4 */
+#obi{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(240, 76%, 60%);
+    margin: 5% 5%;
+    height: 25vh;
+    border-radius: 1rem;
+    padding: 3%;
+}
+.obim{
+    font-size: 1.8rem;
+    color: white;
+}
+#obi input{
+    border: 2%;
+    width: 70%;
+    height: 6vh;
+    text-align: center;
+    border-radius: 1rem;
+    border-color: white;
+}
+.obis{
+   margin-right: 1%;
+}
+.obin{
+    font-size: 2rem;
+    color: white;
+}
+.obit{
+    background-color: rgb(94, 94, 219);
+    margin-top: 1%;
+    width: 65px;
+    height: 6vh;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 2px;
+    font-size: 1.5rem;
+    color: white;
+    border-color: white;
+}
+#obi button:hover{
+    background-color: white;
+    color: black;
+}
+/* styling content 4 done */
+
+/* styling footer */
+#footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    height: 10vh;
+}
+#footer p{
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+.feet ul{
+    display: flex;
+    gap: 50px;
+    /* list-style: none;  */
+}
+.feet a{
+    /* text-decoration: none; */
+    text-transform: capitalize;
+    color: white;
+    font-size: 2rem;
+}
+.foot{
+    padding: 1% 0;
+    margin-left: 9%;
+}
+.feet{
+    margin-right: 4%;
+    padding: 1% 0;
+}
+/* styling footer done */
+
+/* styling about */
+#mission{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 7% 0;
+}
+#mission h1{
+    font-size: 4rem;
+}
+#mission p{
+    font-size: 1.9rem;
+    padding-top: 3%;
+}
+#mission button{
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    font-size: 1.9rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 3%;
+}
+#founding{
+    background-color: whitesmoke;
+    display: flex;
+    padding: 5% 5%;
+    align-items: center;
+}
+.fleft{
+    flex-basis: 50%;
+    background-color: #575555ec;
+    height: 60vh;
+    border-radius: 1rem;
+}
+.fright{
+    flex-basis: 50%;
+    margin-left: 5%;
+}
+.fleft p{
+    font-size: 7rem;
+    color: white;
+    text-align: center;
+    padding-top: 25%;
+}
+.fright h1{
+    font-size: 4rem;
+    text-transform: capitalize;
+}
+.fright p{
+    font-size: 2rem;
+}
+#growth{
+    background-color: whitesmoke;
+    display: flex;
+    padding: 5% 5%;
+    align-items: center;
+}
+#team{
+    background-color: whitesmoke;
+    padding: 5% 10%;
+}
+.team1{
+    text-align: center;
+}
+.team1 h1{
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+.team1 p{
+    font-size: 1.9rem;
+}
+.members{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.member{
+    text-align: center;
+    margin-top: 3%;
+}
+.member span{
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-style: italic;
+}
+.member p{
+    font-size: 1.8rem;
+}
+.image{
+    width: 200px;
+    height: 200px;
+    background-color: gainsboro;
+    border-radius: 100%;
+    margin-bottom: 10%;
+}
+.image p{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 45%;
+}
+/* styling about done */
+
+/* styling contact form */
+#united{
+    text-align: center;
+    background-color: white;
+    padding: 5% 0;
+    display: block;
+    padding: 2%;
+    background-color: whitesmoke;
+}
+.unit form{
+    padding: 1%;
+    text-align: center;
+}
+.un{
+    padding: 5px;
+    margin: 2px 0;
+   
+}
+.un input{
+    border: 1px solid gainsboro;
+}
+.un textarea{
+    border: 1px solid gainsboro;
+}
+.un input:focus{
+    outline: none;
+    border: 1px solid blue;
+}
+#united input{
+    border: 2%;
+    width: 30%;
+    height: 6vh;
+    text-align: center;
+    border-radius: 1rem;
+}
+.unite h1{
+    font-size: 5rem;
+}
+.uni{
+    font-size: 3rem;
+}
+.un textarea{
+    text-align: center;
+    border-radius: 1rem;
+    width: 30%;
+}
+#united button{
+    width: 30%;
+    height: 6vh;
+    border-radius: 1rem;
+    background-color: blue;
+    color: white;
+}
+#leader{
+    background-color: whitesmoke;
+    padding: 5% 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+.lead h2{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+.lead p{
+    font-size: 1.8rem;
+    margin: 2%;
+    color: gray;
+}
+
+@media (min-width: 300px) and (max-width: 700px){
+    #header ul{
+        display: none;
+    }
+    #header i{
+        display: block;
+        font-size: 3.5rem;
+        color: gray;
+    }
+    #ladder{
+        display: flex;
+        font-size: 1.4rem;
+        flex-direction: column;
+        background-color: hsl(0, 0%, 20%);
+        color: white;
+        padding-top: 20%;
+        padding-left: 3%;
+        text-align: center;
+    }
+    .loned{
+        width: 50%;
+        padding-bottom: 10%;
+        margin-left: 25%;
+        
+    }
+    .loned p{
+        font-size: 4rem;
+    }
+    #ladder button{
+        width: 50%;
+        height: 10vh;
+        border-radius: 1rem;
+        background-color: hsl(0, 1%, 17%);
+        color: white;
+        text-align: center;
+        font-size: 2.2rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 25%;
+        padding-left: 9%;
+        padding-top: 3%;
+        margin-bottom: 3%;
+    }
+    #ladder .lad{
+        width: 50%;
+        height: 10vh;
+        border-radius: 1rem;
+        background-color: blue;
+        color: white;
+        text-align: center;
+        font-size: 2.2rem;
+    }
+    #kiddie{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        color: black;
+        text-align: center;
+    }
+    #banner1{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50%;
+        padding-left: 3%;
+        text-align: center;
+    }
+    #banner{
+        text-align: center;
+        margin-top: 10%;
+        font-size: 1.8rem;
+    }
+    #banner1 .serve{
+        background-color: hwb(0 58% 41%);
+        padding: 30% 0;
+        text-align: center;
+        color: black;
+        border-radius: 1rem;
+        box-shadow: 0 0 20px gray;
+        width: 50%;
+        align-items: center;
+        text-transform: capitalize;
+        font-size: 2.6rem;
+        margin-left: 20%;
+    }
+    #banner1 .barn{
+        background-color: hwb(0 58% 41%);
+        padding: 25% 0;
+        text-align: center;
+        color: black;
+        border-radius: 1rem;
+        box-shadow: 0 0 20px gray;
+        width: 50%;
+        height: 50vh;
+        align-items: center;
+        text-transform: capitalize;
+        font-size: 2.6rem;
+        margin-top: 10%;
+        margin-left: 20%;
+    }
+    #banner1 .gone{
+        background-color: hwb(0 58% 41%);
+        padding: 25% 0;
+        text-align: center;
+        color: black;
+        border-radius: 1rem;
+        box-shadow: 0 0 20px gray;
+        width: 50%;
+        height: 50vh;
+        align-items: center;
+        text-transform: capitalize;
+        font-size: 2.6rem;
+        margin-top: 10%;
+        margin-left: 20%;
+    }
+    .news{
+        margin-left: 20%;
+    }
+    .media{
+        margin-left: 20%;
+    }
+    .new{
+        margin-left: 20%;
+    }
+    #obi{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: hsl(240, 76%, 60%);
+        margin: 7% 7%;
+        height: 50vh;
+        border-radius: 1rem;
+    }
+    #footer{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        color: white;
+        justify-content: space-between;
+        height: 10vh;
+    }
+    .feet ul{
+        display: flex;
+        gap: 30px;
+        text-align: center;
+	}
+    #footer p{
+        font-size: 2rem;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    #footer .feet{
+        margin-left: 30%;
+    }
+    
+}
